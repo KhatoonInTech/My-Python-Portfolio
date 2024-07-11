@@ -1,16 +1,17 @@
-Overview**
 
+**Overview**
+-
 This Python-based chatbot project simulates a conversation with characters from the TV series "*Peaky Blinders*". It utilizes a keyword-based matching system to generate responses based on user input. Additionally, it maintains a conversation history using CSV files.
 
 **Key Features:**
-
+-
  - **Peaky Blinders Themed Responses:** Provides responses aligned with the Peaky Blinders TV series, including character interactions, plot references, and user sentiment analysis.
  - **Conversation History:** Maintains a record of user interactions in CSV files for future reference.
  - **User-Friendly Interface**: Offers both console-based and GUI-based interactions.
  - **Error Handling**: Includes basic error handling for file operations.
 
 **Tech Stack:**
-
+-
  - [ ] **Programming Language**:
                    Python
 
@@ -27,7 +28,7 @@ This Python-based chatbot project simulates a conversation with characters from 
  - **tabulate:** For data formatting (consol_based.py)
 
 **File Structure:**
-
+-
  - **Peaker Chatter** : Main project directory.
  - **history:** Contains the database.py file for managing conversation
    history.
@@ -36,7 +37,7 @@ This Python-based chatbot project simulates a conversation with characters from 
  - **consol_based.py**: Contains the console-based implementation.
 
 **Usage:**
-
+-
  - [ ] **GUI:**
  - Run front_end.py to start the graphical user interface.
  - Interact with the chatbot through the GUI.
@@ -46,6 +47,7 @@ This Python-based chatbot project simulates a conversation with characters from 
  - Interact with the chatbot by typing input in the console.
 
 **Dependencies**:
+-
  - tkinter
  - csv
  - PIL/Pillow (optional)
@@ -53,7 +55,7 @@ This Python-based chatbot project simulates a conversation with characters from 
  - winsound (optional)
 
 **How it Works:**
-
+-
  - The chatbot loads pre-defined keywords and responses from the
    bot_responses.py file.
 
@@ -67,7 +69,7 @@ This Python-based chatbot project simulates a conversation with characters from 
    representation of the conversation.
 
 **How to run this on your system**:
-
+-
  - [ ] **Install dependencies:**
 
     **Bash**
@@ -80,7 +82,7 @@ This Python-based chatbot project simulates a conversation with characters from 
  - **For console:** python consol_based.py
 
 **Additional Notes:**
-
+-
  - The code includes basic error handling for file operations.
 
  - The chatbot's responses are based on the Peaky Blinders theme and
@@ -93,6 +95,6 @@ This Python-based chatbot project simulates a conversation with characters from 
  - The console version provides a basic text-based interaction.
 
 **For Contributions:**
-
+-
 *Contributions are welcome! Please feel free to fork the repository and submit pull requests.*
 
